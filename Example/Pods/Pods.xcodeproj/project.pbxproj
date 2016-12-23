@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075D057435E2F4971E5FF3AF08FCF283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		0D6406AD340062FB71DFCB65CFC61BD7 /* Pods-VRAnalytics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9719A8EA6BA1120C5E31BE772FAB4D5 /* Pods-VRAnalytics_Example-dummy.m */; };
-		1680C376C897B27F84C05086FCED4DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		153A58F36618AF0F543402FCC74BAF8A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA36A85460F5C709CF1F17DCF2B95E5 /* MapKit.framework */; };
+		1680C376C897B27F84C05086FCED4DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3182E6955502B06579A839C1874B915E /* Foundation.framework */; };
 		180286029ECC21D564F87488311AE0E2 /* Pods-VRAnalytics_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439CBCCEB2ADE2CDBFF24A0AACD34396 /* Pods-VRAnalytics_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57E82371E4984D3CB9B7432E70BDA405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		43DDE1BB75E262161E1DDD8BB2952ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297A19290C2A97B16BDBA7811BF461D6 /* UIKit.framework */; };
+		55282716852B2490EE4A995E4CD1225A /* VRAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5ED27D502E3E47C0DFA1D020B82AD4 /* VRAnalytics.framework */; };
+		57E82371E4984D3CB9B7432E70BDA405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3182E6955502B06579A839C1874B915E /* Foundation.framework */; };
 		5A7FFDA11ABE105ECF7D46B2D2D0A5E9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CC55AB34CC46FFD1A2BA3960881DB1 /* ReplaceMe.swift */; };
 		7B89BBE27AD51E2E65558E163B22574B /* VRAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0469869CE52CB60C96AC4A083335CA9C /* VRAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F31AAD84C50512D9C79373EF60FD8EA /* Pods-VRAnalytics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CE9F5ABEC0A2378942C9ABBA14A3F /* Pods-VRAnalytics_Tests-dummy.m */; };
 		9ED4B7DC41925A316CA2DF287DADE8C7 /* Pods-VRAnalytics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67846D83A9B7C43E7587A06A57454292 /* Pods-VRAnalytics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B421788F178D167C09030AAAC4D4E2CF /* VRAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C025E655CF33AFA859A7DA06D299D976 /* VRAnalytics-dummy.m */; };
+		D2D281ADD790158EEAF232CCFE5D1194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3182E6955502B06579A839C1874B915E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,9 @@
 		0A8CE9F5ABEC0A2378942C9ABBA14A3F /* Pods-VRAnalytics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRAnalytics_Tests-dummy.m"; sourceTree = "<group>"; };
 		186B3EFCFF52B66A27D9E38F3B8A5957 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2658AC7D95525954BCD1305B00354DD1 /* Pods-VRAnalytics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRAnalytics_Example-frameworks.sh"; sourceTree = "<group>"; };
+		297A19290C2A97B16BDBA7811BF461D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2EB8DA59724390534F86F03978CBC465 /* Pods-VRAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3182E6955502B06579A839C1874B915E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39784D219A274A8C683231B4C25CDD06 /* Pods_VRAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E78DEF8257FAAF25BC67C275498ABC2 /* Pods-VRAnalytics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRAnalytics_Example.modulemap"; sourceTree = "<group>"; };
 		439CBCCEB2ADE2CDBFF24A0AACD34396 /* Pods-VRAnalytics_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRAnalytics_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 		4B50D8CF92979D001DB987D495F57A22 /* Pods_VRAnalytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRAnalytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D8C0C420BB140AF2019AA47F25D2BF /* Pods-VRAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		67846D83A9B7C43E7587A06A57454292 /* Pods-VRAnalytics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRAnalytics_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CA36A85460F5C709CF1F17DCF2B95E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		70CC55AB34CC46FFD1A2BA3960881DB1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		735FF14F5E650B2164BB2A8C96734E12 /* VRAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRAnalytics.xcconfig; sourceTree = "<group>"; };
 		741057219EEF8FC647E3DA8C152EACF6 /* VRAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRAnalytics-prefix.pch"; sourceTree = "<group>"; };
@@ -55,11 +61,11 @@
 		B3E65FE0E4B90272BEC6307B64DC1102 /* Pods-VRAnalytics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRAnalytics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C025E655CF33AFA859A7DA06D299D976 /* VRAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VRAnalytics-dummy.m"; sourceTree = "<group>"; };
 		C176FF2A35D4EFC070012AE714E0AA6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF092547A902B41E6BD889E0FA32D6B8 /* Pods-VRAnalytics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRAnalytics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D13144A3B833D92C4468E6518B7A1E70 /* VRAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VRAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76C861E320E9C57C72E5D6C88172F01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9719A8EA6BA1120C5E31BE772FAB4D5 /* Pods-VRAnalytics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRAnalytics_Example-dummy.m"; sourceTree = "<group>"; };
+		ED5ED27D502E3E47C0DFA1D020B82AD4 /* VRAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VRAnalytics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/VRAnalytics.framework; sourceTree = DEVELOPER_DIR; };
 		FAB4F72120D437F3EAAE45D32E9B8486 /* Pods-VRAnalytics_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRAnalytics_Example-resources.sh"; sourceTree = "<group>"; };
 		FB3BAEC21FC57CBA583D0C83472E8647 /* VRAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VRAnalytics.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,11 +79,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE822F33341A2A1EC379B9AE8DDDABD8 /* Frameworks */ = {
+		A212383B91B7EA3F337A6574B8A51B31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075D057435E2F4971E5FF3AF08FCF283 /* Foundation.framework in Frameworks */,
+				D2D281ADD790158EEAF232CCFE5D1194 /* Foundation.framework in Frameworks */,
+				153A58F36618AF0F543402FCC74BAF8A /* MapKit.framework in Frameworks */,
+				43DDE1BB75E262161E1DDD8BB2952ECA /* UIKit.framework in Frameworks */,
+				55282716852B2490EE4A995E4CD1225A /* VRAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2526D426AD696BACAE948D0576825 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		29F69D13F9EC5DD2A0959649B443BD77 /* VRAnalytics */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,20 +177,12 @@
 			path = "Example/Pods/Target Support Files/VRAnalytics";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3FFB77B7AE75822D1CC38C790237F0 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				9FC12ACF25DC8CF94546FB02DBCD4C4D /* Products */,
 				8E7A8611CCE222A0C91E876822DC683A /* Targets Support Files */,
 			);
@@ -198,14 +207,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC3FFB77B7AE75822D1CC38C790237F0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +221,17 @@
 				70CC55AB34CC46FFD1A2BA3960881DB1 /* ReplaceMe.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		FEC2526D426AD696BACAE948D0576825 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3182E6955502B06579A839C1874B915E /* Foundation.framework */,
+				6CA36A85460F5C709CF1F17DCF2B95E5 /* MapKit.framework */,
+				297A19290C2A97B16BDBA7811BF461D6 /* UIKit.framework */,
+				ED5ED27D502E3E47C0DFA1D020B82AD4 /* VRAnalytics.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +286,7 @@
 			buildConfigurationList = 237F5E6E360A89AE72D8DC8B1AE8D2A8 /* Build configuration list for PBXNativeTarget "VRAnalytics" */;
 			buildPhases = (
 				606B75AF733F2C5CD39640E235F40541 /* Sources */,
-				EE822F33341A2A1EC379B9AE8DDDABD8 /* Frameworks */,
+				A212383B91B7EA3F337A6574B8A51B31 /* Frameworks */,
 				625C7B37F3EB5FDCE8AA14DA8C1EFABE /* Headers */,
 			);
 			buildRules = (
@@ -312,14 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					99D4A48D61B1424BC5961011B57EEA7B = {
-						LastSwiftMigration = 0820;
-					};
-					BFF5A73DA8ACB846DDAD08D69684A49E = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -407,7 +411,6 @@
 				PRODUCT_NAME = Pods_VRAnalytics_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -479,44 +482,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5897E42481A29B68B9573C28132AD706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 735FF14F5E650B2164BB2A8C96734E12 /* VRAnalytics.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VRAnalytics/VRAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VRAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VRAnalytics/VRAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VRAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8828D8AA37A6869C65A9BF360BD8B4D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -593,6 +563,39 @@
 			};
 			name = Release;
 		};
+		92C983618D159CA08E2F470BF2A780F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735FF14F5E650B2164BB2A8C96734E12 /* VRAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VRAnalytics/VRAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRAnalytics/VRAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VRAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -637,7 +640,7 @@
 			};
 			name = Debug;
 		};
-		BF7D6DBD2E2E994E19C4147B19B83CD5 /* Debug */ = {
+		ED17FD25F7F82BA76FC7B12BE3D13954 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 735FF14F5E650B2164BB2A8C96734E12 /* VRAnalytics.xcconfig */;
 			buildSettings = {
@@ -645,7 +648,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -658,17 +661,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/VRAnalytics/VRAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = VRAnalytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -676,8 +678,8 @@
 		237F5E6E360A89AE72D8DC8B1AE8D2A8 /* Build configuration list for PBXNativeTarget "VRAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF7D6DBD2E2E994E19C4147B19B83CD5 /* Debug */,
-				5897E42481A29B68B9573C28132AD706 /* Release */,
+				92C983618D159CA08E2F470BF2A780F2 /* Debug */,
+				ED17FD25F7F82BA76FC7B12BE3D13954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
