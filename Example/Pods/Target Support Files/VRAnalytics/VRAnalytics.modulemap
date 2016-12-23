@@ -1,0 +1,6 @@
+framework module VRAnalytics {
+  umbrella header "VRAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

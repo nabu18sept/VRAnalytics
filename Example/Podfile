@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VRAnalytics_Example' do
+  pod 'VRAnalytics', :path => '../'
+
+  target 'VRAnalytics_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

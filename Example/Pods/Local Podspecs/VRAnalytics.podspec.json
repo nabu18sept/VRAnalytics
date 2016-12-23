@@ -1,0 +1,22 @@
+{
+  "name": "VRAnalytics",
+  "version": "0.1.0",
+  "summary": "A short description of VRAnalytics.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VRAnalytics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "naveen.kothiyal": "naveen.kothiyal@tothenew.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VRAnalytics.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VRAnalytics/Classes/**/*"
+}
